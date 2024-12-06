@@ -183,8 +183,9 @@ choco install -y neovim git ripgrep wget fd unzip gzip mingw make
 <details><summary>WSL (Windows Subsystem for Linux)</summary>
 
 ```
-wsl --install
+wsl --install -d Ubuntu-24.04
 wsl
+sudo apt-get update && sudo apt-get upgrade
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip neovim
@@ -195,6 +196,7 @@ sudo apt install make gcc ripgrep unzip git xclip neovim
 <details><summary>Ubuntu Install Steps</summary>
 
 ```
+sudo apt-get update && sudo apt-get upgrade
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt update
 sudo apt install make gcc ripgrep unzip git xclip neovim
