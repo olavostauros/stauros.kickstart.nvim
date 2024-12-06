@@ -192,6 +192,6 @@ sudo apt install make gcc ripgrep unzip git xclip neovim
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 # download and install Node.js (you must restart wsl and the windows terminal)
-nvm install 22
+nvm install --lts
 ```
 </details>
