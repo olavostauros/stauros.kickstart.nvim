@@ -184,5 +184,8 @@ npm install -g npm@latest
 
 # npm packages
 npm install -g tree-sitter-cli neovim
+
+# set config
+git clone https://github.com/olavostauros/stauros.kickstart.nvim "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 </details>
