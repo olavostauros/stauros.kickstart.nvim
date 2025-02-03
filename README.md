@@ -164,6 +164,9 @@ sudo apt install make gcc ripgrep unzip git xclip neovim luarocks fd-find
 
 sudo apt install python3-pip
 
+# install venv
+sudo apt-get install python3.12-venv
+
 # node installation
 
 # installs nvm (Node Version Manager)
@@ -172,9 +175,12 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 # make sure to restart the shell
 
 # download and install Node.js
-nvm install 20
+nvm install --lts
 
 # restart the shell again
+
+# update npm
+npm install -g npm@latest
 
 # npm packages
 npm install -g tree-sitter-cli neovim
